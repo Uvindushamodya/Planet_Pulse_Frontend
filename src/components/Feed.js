@@ -9,7 +9,7 @@ import {
   ThumbUp,
   Favorite,
   Spa
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 
 export default function Feed() {
   const [posts, setPosts] = useState([]);

@@ -9,7 +9,7 @@ import {
   Room,
   EmojiEmotions,
   Cancel,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 
 export default function CreatePost() {
   const [desc, setDesc] = useState("");
