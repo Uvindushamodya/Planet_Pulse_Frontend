@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  myapp :
+    build: ./
+    container_name: planet_pulse
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true 
